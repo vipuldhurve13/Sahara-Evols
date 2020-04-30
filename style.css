@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+}
+
+
+.home-inner{
+    width: 100%;
+    height: 100vh;
+    background:  url(./top-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative ;
+    background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    /* border-radius: 0 0 110% 110%/ 0 0 20% 20%; */
+}
+
+/********************************************** Navigation Bar ***************************************************/ 
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.98rem;
+    letter-spacing: 0.1rem;
+    background: #111111 !important;
+    border-bottom: 0.2rem solid grey;
+}
+
+.navbar-brand{
+    height: 4.5rem;
+}
+
+.navbar-brand img{
+    margin-top: -1.1rem; 
+    background-size: auto;
+}
+
+.navbar-nav li{
+    padding-right: 1rem;
+    margin-top: -1rem;   
+}
+.navbar-nav li a{
+    transition: 0.4s;
+}
+
+.navbar-nav li a:hover{
+    color:  white !important ;
+    border: 2px solid rgb(47, 190, 147) ;
+    transition: 0.4s;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    background-color: #666666;
+    font-size: 0.9rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #1ebba3;
+  margin-top: 1rem;
+}
+/* *************************************    Jumbotron    ************************************** */
+.jumbotron{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 2rem;
+    margin: 1rem;
+    padding: 4rem;
+}
+
+/* **********************************************   Features  ****************************************** */
+.feature-el{
+    height: auto;
+    width: auto;
+    margin: 1rem 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.3),rgb(221, 221, 221)) !important;
+    border-radius: 6rem;
+    padding: 1rem;
+    position: relative;
+    transition: 0.4s;
+    
+}
+
+.feature-el:hover{
+        border-radius: 4rem;
+        transform: translateY(-30px);
+        transition: 0.4s;
+         
+}
+
+#features h4{
+    font-weight: 500;
+}
+
+
+#features img{
+    border: 0.5rem solid rgb(47, 190, 147);
+    border-radius: 100rem;
+    background-color:  rgb(47, 190, 147);
+}
+
+/* **************************************   Products      *********************************************** */
+
+#products .row img{
+    width: 100%;
+    height: auto !important ;
+}
+
+.product-el{
+    transition: 0.4s;
+}
+
+.product-el:hover{
+    transform: translateY(-30px);
+        transition: 0.4s;
+}
+
+/* ************************************************ Test Ride Elements**************************************************** */
+
+.test-ride-btn{
+    justify-content: center;
+    background-color: #111111;
+    color: white;
+    height: 4.5rem;
+    width: 9rem;
+    border: 3px solid lightgrey;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.test-ride-btn:hover{
+    color: white;
+    transition: 0.3s;
+    border: 7px solid rgb(47, 190, 147);
+}
+
+.test-ride-el{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* **********************************  Footer   ************************************* */
+
+.footer{
+    background: linear-gradient(rgba(57, 95, 131, 0.5), rgb(0, 0, 0, 0.8)), rgb(23, 84, 141);
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+.footer .row{
+    height: auto;
+    margin: 1rem;
+    position: relative;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .bg-overlay{
+    background: rgb(56, 89, 122);
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid rgb(47, 190, 147);
+}
+
+
+/* ********************************************** */
+
